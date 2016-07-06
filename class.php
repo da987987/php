@@ -22,10 +22,12 @@ and open the template in the editor.
                 $this->name=$name;
                 $this->position = ['x'=>0,'y'=>0];
             }
+//            get是用來提出
             public function getName()
             {
                 return $this->name;
             }
+//            set是存取
             public function setName($name)
             {
                 $this->name=$name;
